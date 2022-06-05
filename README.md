@@ -1,4 +1,6 @@
-Olá eu sou o **Igor Bitencourt!**
+Olá, eu sou o **Igor Bitencourt!**
+Desenvolvedor Fron-End Jr.
+
 <div style="display: inline_block">
 <a href = "mailto:bitencourt.igor@hotmail.com"><img src="https://img.shields.io/badge/-Hotmail-%23333?style=for-the-badge&logo=hotmail&logoColor=white" target="_blank"></a>
 <a href="https://www.linkedin.com/in/igor-bitencourt-778bab16a" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
@@ -7,6 +9,7 @@ Olá eu sou o **Igor Bitencourt!**
 ##
 
 **Conhecimentos**
+
 <div style="display: inline_block">
 <img align="center" alt="Igor-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 <img align="center" alt="Igor-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
