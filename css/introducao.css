@@ -1,0 +1,32 @@
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 60px;
+  gap: 100px;
+  align-items: center;
+}
+
+.foto {
+  max-width: 360px;
+}
+
+.introducao h2 {
+  font-family: Playfair Display;
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 1.125;
+  text-align: left;
+  position: relative;
+}
+
+.introducao h2::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/deco1.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
