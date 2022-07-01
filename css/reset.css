@@ -9,10 +9,17 @@ li {
   padding: 0px;
 }
 
-li {
+li,
+ul {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 a {
   text-decoration: none;
+}
+
+body {
+  margin: 0;
 }

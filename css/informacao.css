@@ -1,0 +1,160 @@
+.informacao {
+  background: #141414;
+  /* background: aqua; */
+}
+
+.informacao-colunas {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  padding-top: 80px;
+}
+
+.informacao-colunas h3 {
+  font-family: Fira Sans;
+  font-size: 9rem;
+  font-weight: 700;
+  line-height: 9rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+
+.informacao-texto {
+  font-family: Fira Sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #a3a3a3;
+  max-width: 40ch;
+  margin-bottom: 28px;
+}
+
+.informacao-facul {
+  background: #000000;
+  width: 290px;
+  height: 140px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.informacao-facul::before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 15px;
+  background: linear-gradient(180deg, #b6f829 0%, #67dd0a 100%);
+  top: 38px;
+  left: -4px;
+}
+
+.informacao-facul p {
+  font-family: Fira Sans;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  position: relative;
+  padding-top: 38px;
+  padding-left: 20px;
+}
+
+.informacao-facul p::before {
+  content: "TECNÓLOGO";
+  font-family: Fira Sans;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  position: absolute;
+  top: 15px;
+  color: #a3a3a3;
+}
+
+.informacao-facul p::after {
+  content: "UNINTER";
+  font-family: Fira Sans;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0em;
+  position: absolute;
+  bottom: -37px;
+  left: 20px;
+  color: #a3a3a3;
+}
+
+.informacao-cursos {
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.informacao-cursos h4 {
+  font-family: Fira Sans;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8f8f8f;
+  margin-bottom: 20px;
+}
+
+.informacao-cursos h4 span {
+  left: -35px;
+  position: absolute;
+}
+
+.informacao-cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lista {
+  font-family: Fira Sans;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.informacao-idiomas {
+  position: relative;
+  margin-bottom: 64px;
+}
+
+.informacao-idiomas h4 {
+  font-family: Fira Sans;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #8f8f8f;
+  margin-bottom: 20px;
+}
+
+.informacao-idiomas h4 span {
+  left: -35px;
+  position: absolute;
+}
+
+.informacao-idiomas p {
+  font-family: Fira Sans;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.informacao-idiomas p span {
+  color: 8F8F8F;
+}

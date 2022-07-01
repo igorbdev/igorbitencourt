@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 2fr;
   align-items: center;
   gap: 100px;
+  margin-bottom: 120px;
 }
 
 .sobre h3 {
