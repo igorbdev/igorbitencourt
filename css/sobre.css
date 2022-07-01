@@ -1,0 +1,37 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  gap: 100px;
+}
+
+.sobre h3 {
+  font-family: Playfair Display;
+  font-size: 9rem;
+  font-weight: 700;
+  line-height: 9rem;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.sobre p {
+  font-family: Fira Sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 50ch;
+  position: relative;
+}
+
+.sobre p::before {
+  content: "";
+  display: block;
+  height: 120px;
+  width: 20px;
+  background: #ccf235;
+  position: absolute;
+  left: -40px;
+  top: 20px;
+}
