@@ -1,5 +1,10 @@
+/* CSS reset */
 @import "./reset.css";
+
+/* CSS Componente Container */
 @import "./componentes.css";
+
+/* Header das paginas */
 @import "./header.css";
 @import "./introducao.css";
 @import "./sobre.css";
