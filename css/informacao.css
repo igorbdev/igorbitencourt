@@ -32,6 +32,7 @@
   margin-bottom: 28px;
 }
 
+/* Facul */
 .informacao-facul {
   background: #000000;
   width: 290px;
@@ -90,6 +91,7 @@
   color: #a3a3a3;
 }
 
+/* Cursos */
 .informacao-cursos {
   position: relative;
   margin-bottom: 64px;
@@ -125,6 +127,7 @@
   margin-bottom: 16px;
 }
 
+/* Idiomas */
 .informacao-idiomas {
   position: relative;
   margin-bottom: 64px;
