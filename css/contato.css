@@ -1,0 +1,50 @@
+.contato {
+  background-color: #000000;
+  position: relative;
+}
+
+.contato::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../img/deco1.svg") no-repeat center;
+  position: absolute;
+  left: 200px;
+  top: -50px;
+}
+
+.contato-cols {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 150px;
+  padding-top: 160px;
+  padding-bottom: 120px;
+  align-items: center;
+}
+
+.contato-cols h3 {
+  font-family: Fira Sans;
+  font-size: 9rem;
+  font-weight: 700;
+  line-height: 9rem;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #e0e0e0;
+}
+
+.contato-links a {
+  display: block;
+  font-family: Fira Sans;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+
+.contato-email::before {
+  content: "";
+  display: block;
+}
