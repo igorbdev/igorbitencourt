@@ -161,3 +161,22 @@
 .informacao-idiomas p span {
   color: 8F8F8F;
 }
+
+@media (max-width: 1000px) {
+  .informacao-colunas h3 {
+    font-size: 8rem;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .informacao-colunas {
+    gap: 0px;
+    padding-top: 140px;
+  }
+
+  .informacao-colunas h3 {
+    font-size: 6.5rem;
+    line-height: 6.5rem;
+    transform: rotate(270deg);
+  }

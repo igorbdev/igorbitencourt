@@ -44,3 +44,16 @@
   color: #ffffff;
   margin-bottom: 30px;
 }
+
+@media (max-width: 1000px) {
+  .contato-links a {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .contato-links a {
+    font-size: 1.5rem;
+    line-height: 1.125rem;
+  }
+}

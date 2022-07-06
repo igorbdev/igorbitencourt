@@ -32,3 +32,26 @@
   left: -40px;
   z-index: -1;
 }
+
+@media (max-width: 1000px) {
+  .introducao h2 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 100px;
+    margin-bottom: 100px;
+  }
+
+  .foto {
+    max-width: 200px;
+  }
+
+  .introducao h2 {
+    font-size: 2.5rem;
+  }
+}
