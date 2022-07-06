@@ -168,7 +168,6 @@
   }
 }
 
-
 @media (max-width: 800px) {
   .informacao-colunas {
     gap: 0px;
@@ -180,3 +179,16 @@
     line-height: 6.5rem;
     transform: rotate(270deg);
   }
+
+  .informacao-texto {
+    font-size: 1.125rem;
+  }
+
+  .informacao-facul p {
+    font-size: 1rem;
+  }
+
+  .lista {
+    font-size: 1rem;
+  }
+}
