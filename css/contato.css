@@ -57,3 +57,22 @@
     line-height: 1.125rem;
   }
 }
+
+@media (max-width: 600px) {
+  .contato-cols {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .contato-texto {
+    font-size: 1.125rem;
+    line-height: 2rem;
+    color: #cccccc;
+    max-width: 40ch;
+  }
+
+  .contato-links a {
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+  }
+}

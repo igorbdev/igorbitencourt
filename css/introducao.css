@@ -55,3 +55,28 @@
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .introducao {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-bottom: 100px;
+  }
+
+  .foto {
+    max-width: 160px;
+    margin: 0 auto;
+  }
+
+  .introducao h2 {
+    text-align: center;
+  }
+
+  .introducao h2::before {
+    width: 130px;
+    height: 100px;
+    top: 0px;
+    left: 0px;
+  }
+}

@@ -53,3 +53,28 @@
     width: 10px;
   }
 }
+
+@media (max-width: 600px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .sobre h3 {
+    font-size: 5rem;
+    line-height: 5rem;
+    transform: rotate(0deg);
+  }
+
+  .sobre p {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    text-align: left;
+    max-width: 40ch;
+    margin-left: 40px;
+  }
+
+  .sobre p::before {
+    display: none;
+  }
+}
