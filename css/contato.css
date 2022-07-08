@@ -16,7 +16,7 @@
 
 .contato-cols {
   display: grid;
-  padding: 120px 20px 60px 20px;
+  padding: 80px 20px 60px 20px;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -31,24 +31,18 @@
   font-size: 1.5rem;
   line-height: 2rem;
   color: #cccccc;
-  max-width: 30ch;
+  max-width: 40ch;
 }
 
 .contato-links a {
   font-family: "Fira Sans";
   font-style: normal;
   font-weight: 700;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
   display: block;
   color: #ffffff;
-  margin-bottom: 30px;
-}
-
-@media (max-width: 1000px) {
-  .contato-links a {
-    font-size: 2rem;
-  }
+  margin-bottom: 20px;
 }
 
 @media (max-width: 800px) {
