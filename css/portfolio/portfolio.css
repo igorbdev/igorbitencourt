@@ -1,0 +1,66 @@
+.portfolio {
+  gap: 100px;
+}
+
+.portfolio h2 {
+  font-family: Playfair Display;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 1.125;
+  text-align: left;
+  position: relative;
+  color: #141414;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.portfolio h2::before {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 100px;
+  background: url("../../img/deco1.svg") no-repeat center;
+  position: absolute;
+  top: -15px;
+  left: -40px;
+  z-index: -1;
+}
+
+.sites {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.portfolio-img {
+  width: 360px;
+  height: 200px;
+  border: #141414 1px solid;
+  border-radius: 4px;
+}
+
+.portfolio-descricao {
+  max-width: 70%;
+  background: #141414;
+  border-radius: 0 0 0 4px;
+  z-index: 1;
+  position: absolute;
+  bottom: -20px;
+  opacity: 0.95;
+}
+
+.portfolio-descricao h5 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding-left: 15px;
+}
+
+.portfolio-descricao p {
+  color: #a3a3a3;
+  font-size: 1.125rem;
+  padding-left: 15px;
+}

@@ -13,3 +13,6 @@
 
 /* Plugin de Animação */
 @import "./animacao.css";
+
+/* Portfolio */
+@import "./portfolio/portfolio.css";
