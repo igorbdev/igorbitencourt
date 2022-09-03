@@ -127,6 +127,10 @@
   margin-bottom: 16px;
 }
 
+.lista a {
+  color: inherit;
+}
+
 /* Idiomas */
 .informacao-idiomas {
   position: relative;
